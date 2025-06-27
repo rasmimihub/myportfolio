@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,Routes,Route, } from "react-router-dom";
+//Reusable components 
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+//pages
+import Home from './pages/home';
+import About from './pages/about';
+import Project from './pages/projects';
+import Contact from './pages/contacts';
+
+//style of Appjs
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Router>
+    <Header /> {/**because navbar or header appears on every page */}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About /> } />
+      <Route path="/project" element={<Project />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+<Footer /> {/**Footer is also visible in evry page */}
+  </Router>
+   
   );
 }
 
