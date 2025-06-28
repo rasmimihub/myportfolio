@@ -1,0 +1,13 @@
+.footer {
+    background-color: #f4c2c7;
+  color: #0c0c0c;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.footer svg {
+  vertical-align: middle;
+  margin: 0 4px;
+  color: #e25555;
+}
