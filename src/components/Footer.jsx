@@ -10,10 +10,10 @@ function Footer () {
         <p><FaRegCopyright/>All rights reserved.
         Made with <FaRegHeart /> by Rashmi. </p>
         <div className="social-icons">
-        <a href="https://facebook.com/your-profile" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://instagram.com/your-profile" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a href="https://www.linkedin.com/in/rashmi-pariyar-125467302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://github.com/rasmimihub/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.instagram.com/rasmimimimi/profilecard/?igsh=bmF1aWR4dTZ2Z25q" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
       </div>
         </footer>
         </>

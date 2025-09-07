@@ -3,7 +3,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
 import { GoProject } from "react-icons/go";
 import { IoCall } from "react-icons/io5"; //these are react icons imported to use inside code
-import { Link } from 'react-router-dom'; {/** since pages are already imported in app we just use link */}
+import { Link } from 'react-router-dom'; {/** since pages are already imported in app.jsx we just use link */}
 
 function Header () {
     

@@ -4,6 +4,7 @@ import {
 import Layout from "./components/Layout";
 
 
+
 //pages
 import Home from './pages/home';
 import About from './pages/about';

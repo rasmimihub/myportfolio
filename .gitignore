@@ -13,7 +13,7 @@
 # Build output
 dist/
 out/
-
+.next/
 # misc
 .DS_Store
 .env*
