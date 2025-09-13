@@ -86,7 +86,7 @@ const templateParams = {
               id="email"
               name="email"
               className="form-input"
-              value={email}
+              value={email} 
               onChange={(e) => setEmail(e.target.value)}
               required
             />
